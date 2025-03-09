@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Mohamed Nasif</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/MohamedNasifK" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/mohamednasif12/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:nasif12k@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Nasif </h2>
+        <p>Passionate Front-End Developer with a strong foundation in HTML, CSS, and JavaScript, combined with experience in building dynamic and responsive web applications. Skilled in crafting clean, user-friendly interfaces with an eye for design and usability. Familiar with modern frameworks and libraries, ensuring seamless functionality across devices. Driven by a problem-solving mindset, I enjoy turning ideas into interactive digital experiences. I have hands-on experience integrating front-end designs with back-end services, leveraging my knowledge of MySQL and Python. Currently expanding my expertise in Django to build full-stack solutions. 
+          Eager to contribute my skills to innovative projects, collaborate with teams, and continuously learn new technologies to enhance user experiences.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#Education">
+            <i class="fa-solid fa-pen"></i>
+            <span>Education</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/12.jpg" width="150">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Driven by a passion for technology, I have continuously refined my technical skills throughout my academic journey by embracing new concepts and applying them to real-world challenges. This hands-on learning approach has not only strengthened my problem-solving abilities but also deepened my expertise in front-end development, allowing me to create efficient and user-friendly digital experiences.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/Python-logo.jpg" alt="python logo">
+          <span>Python</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/sql-logo.png" alt="sql logo">
+          <span>MySQL</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/d-logo.png" alt="django logo">
+          <span>Django</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Education -->
+    <section id="Education" class="education-section">
+      <h2>Education</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <p>Master's </p>
+          <p>Bachlor's </p>
+        </div>
+
+        <div class="text">
+          <p>Dr. G. R. Damodaran College of Science - Master's of Computer Application (2024)</p>
+          <p>Sri Krishna Adithya College of Art's and Science - BSc Computer Science (2022)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat fugit maiores atque architecto saepe tenetur quasi reiciendis illum sint doloremque alias inventore, asperiores maxime pariatur totam hic assumenda repudiandae, iusto quisquam nisi! Eaque doloremque perspiciatis minus voluptate dicta. A ratione autem dolor iure libero numquam voluptatem nobis laborum et corporis.
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
